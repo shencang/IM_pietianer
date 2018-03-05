@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\sdw\BmobNewIM_v2.0.9\BmobNewIM_v2.0.9\NewIM\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\sdw\BmobNewIM_v2.0.9\BmobNewIM_v2.0.9\NewIM\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_864c15e1fb051c268ccfc8f071b6412098581b2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sdw\BmobNewIM_v2.0.9\BmobNewIM_v2.0.9\NewIM\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\sdw\BmobNewIM_v2.0.9\BmobNewIM_v2.0.9\NewIM\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_aa7ba360a328638e6dcff58de565c9062f154185\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sdw\BmobNewIM_v2.0.9\BmobNewIM_v2.0.9\NewIM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b26f619be58a653410e2058223793ae49da6888">
+        <dex dex="D:\sdw\BmobNewIM_v2.0.9\BmobNewIM_v2.0.9\NewIM\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c6b89b6ec839fc19d9de6844e4b6a7690bd766cd\classes.dex" />
+    </item>
+
+</items>
