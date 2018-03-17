@@ -1,0 +1,674 @@
+网站源码
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>深藏blue</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!--Google fonts links-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-webfont.css" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Sections -->
+        <section id="social" class="social">
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="social-wrapper">
+                        <div class="col-md-6">
+                            <div class="social-icon">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-contact"><a href="#"><em class="fa fa-phone"> 17735646760</em></a>&nbsp;<a href="#"><em class="fa fa-envelope"></em>2630610009@qq.com</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><img src="assets/images/logo3.png" alt="Logo" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">主页</a></li>
+                        <li><a href="#features">作品相关</a></li>
+                        <li><a href="#service">文章相关</a></li>
+                        <li><a href="#price">支持</a></li>
+                        <li><a href="#business">学习计划</a></li>
+                        <li><a href="#contact">测试计划</a></li>
+                        <li class="login"><a href="#">登录</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home">
+            <div class="overlay-fluid-block">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="home-wrapper">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="home-content">
+                                  <h1>欢迎来到深藏blue站点！</h1>
+                                  <p>您好，你能看这里，一定是从我那里听到的这个域名。我在学习网站建设和数据库建设等知识，这里是我的试验场，在这里，我会完成一些我学习的实践和经验的总结，欢迎访问我的Github，获取更多内容。</p>
+                                  <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                            <div class="home-contact">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="输入你想知道些什么">
+                                                    <input type="submit" class="form-control" value="我去寻找">
+
+                                                </div><!-- /input-group -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>			
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="features" class="features sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_features_content2">
+
+                        <div class="col-sm-6">
+                            <div class="single_features_left text-center">
+                                <img src="assets/images/feature-2.jpg" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 margin-top-60">
+                            <div class="single_features_right ">
+                              <h2>萌新的新玩具</h2>
+                              <p>从注册服务器到真正建设之间间隔了非常长的时间。服务器建设于一年以前，但是域名注册于不久之前。因为我并没有学习前端的经验，这将是一次全新的体验。下面包含了一些问题我可以提供帮助。
+                                  .</p>
+                                <ul>
+                                  <li>腾讯云服务器的注册和使用以及与域名的购买。</li>
+                                  <li>萌新的如何开启一步步的建设，数据库的建设。</li>
+                                    <li>没错我就是这么菜。</li>
+                                </ul>
+                                <div class="features_buttom">
+                                    <a href="" class="btn btn-default">了解详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Features 2 Section -->
+        <section id="features" class="features sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_features_content2">
+
+
+
+                        <div class="col-sm-6 margin-top-60">
+                            <div class="single_features_right ">
+                                <h2>学习不易，要有始有终</h2>
+                                <p>作为一个懒散到不行的人，我希望我能自己督促自己做一些更成功的东西。做一个网站是我小小的愿望。我拖了好久好久好久。今天终于成真了。
+								</p>
+                                <ul>
+                                    <li>做完我又懒得动了。</li>
+                                    <li>我好胖啊·········</li>
+                                    <li>别看了，除了首页啥都没有。</li>
+                                </ul>
+                                <div class="features_buttom">
+                                    <a href="" class="btn btn-default">了解详情</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="single_features_left text-center">
+                                <img src="assets/images/feature-1.jpg" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Features 2 Section -->
+
+
+        <section id="service" class="service2 sections lightbg">
+            <div class="container">
+                <div class="row">
+                    <div class="main_service2">
+                        <div class="head_title text-center">
+                          <h2>开 发 预 期</h2>
+                          <p>记录当前开发计划和开发预期，提供技术前瞻。和放鸽子计划。</p>
+                        </div>
+
+                        <div class="service_content">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon1.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                      <h2>网站页面建设</h2>
+                                      <p>目前网站仅有主页。需要更多的二级页面和详情页面设计。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon2.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                      <h2>数据库开发</h2>
+                                      <p>服务器拥有数据库，在专业课程设计中，和比赛项目中可能会用到。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon3.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                      <h2>相关技术实现</h2>
+                                      <p>可能学习机器学习，机器视觉等感觉我搞不来的技术，可能会在这里铺设。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon4.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                        <h2>博客交互设计</h2>
+                                        <p>虽然很现实，但是这个是确实有必要设计的。尽管硬盘不大。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Service2 Section -->		
+
+
+
+        <!-- Sections -->
+        <section id="price" class="price sections">
+
+
+            <div class="head_title text-center">
+              <h1>学 习 进 展</h1>
+              <p>咕咕咕咕咕咕·················</p>
+            </div>
+            <!-- Example row of columns -->
+            <div class="cd-pricing-container cd-has-margins">
+                <div class="cd-pricing-switcher">
+                    <p class="fieldset">
+                        <input type="radio" name="duration-2" value="monthly" id="monthly-2" checked>
+                        <label for="monthly-2">已掌握</label>
+                        <input type="radio" name="duration-2" value="yearly" id="yearly-2">
+                        <label for="yearly-2">还不会</label>
+                        <span class="cd-switch"></span>
+                    </p>
+                </div> <!-- .cd-pricing-switcher -->
+
+                <ul class="cd-pricing-list cd-bounce-invert">
+                    <li>
+                        <ul class="cd-pricing-wrapper">
+                            <li data-type="monthly" class="is-visible">
+                                <header class="cd-pricing-header">
+                                  <h2>语言</h2>
+                                  <div class="cd-price"><span class="cd-currency">学习</span>&nbsp;<span class="cd-value">3-5</span>&nbsp;<span class="cd-duration">种</span></div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                      <li><em><em class="fa fa-check-circle"></em></em>C/C++基础</li>
+                                      <li><em><em class="fa fa-remove"></em></em>java还没学完，Android没学好</li>
+                                      <li><em><i class="fa fa-remove"></i></em>Html，PHP开始路上</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>中文</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">我觉得不行</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+
+                            <li data-type="yearly" class="is-hidden">
+                                <header class="cd-pricing-header">
+                                  <h2>基础</h2>
+                                  <div class="cd-price">
+                                        <span class="cd-currency">还有</span>
+                                        <span class="cd-value">很多</span>
+                                        <span class="cd-duration">种</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                      <li>c++敢说全懂了？</li>
+                                      <li>as能用好了？</li>
+                                      <li>考试考几分啊？</li>
+                                      <li>是不是一堆看不懂的代码？</li>
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer"><a class="cd-select" href="#">我觉得很一般</a></footer>  
+                                <!-- .cd-pricing-footer -->
+                            </li>
+                        </ul> <!-- .cd-pricing-wrapper -->
+                    </li>
+
+                    <li class="cd-popular">
+                        <ul class="cd-pricing-wrapper">
+                            <li data-type="monthly" class="is-visible">
+                                <header class="cd-pricing-header">
+                                  <h2>其 他</h2>
+                                  <div class="cd-price">
+                                        <span class="cd-currency">学习</span>
+                                        <span class="cd-value">4-6</span>
+                                        <span class="cd-duration">种</span>
+                                  </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                      <li><em><em class="fa fa-check-circle"></em></em>数据结构</li>
+                                      <li><em><em class="fa fa-remove"></em></em>数据库还没学完</li>
+                                      <li><em><em class="fa fa-remove"></em></em>计算机网络、电路板搞不定</li>
+                                      <li><em><em class="fa fa-check-circle"></em></em>修电脑</li>
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer"><a class="cd-select" href="#">我觉得不行</a></footer>  
+                                <!-- .cd-pricing-footer -->
+                            </li>
+
+                            <li data-type="yearly" class="is-hidden">
+                                <header class="cd-pricing-header">
+                                    <h2>其他</h2>
+
+                                    <div class="cd-price">
+                                        <span class="cd-currency">还有</span>
+                                        <span class="cd-value">数不清</span>
+                                        <span class="cd-duration">种</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                      <li>多线程弄好了？</li>
+                                      <li>写出来不是一坨了？</li>
+                                      <li>比赛有把握了？</li>
+                                      <li>敢说自己会写东西了？</li>
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer"><a class="cd-select" href="#">我觉得很一般</a></footer>  
+                                <!-- .cd-pricing-footer -->
+                            </li>
+                        </ul> <!-- .cd-pricing-wrapper -->
+                    </li>
+
+                    <li>
+                        <ul class="cd-pricing-wrapper">
+                            <li data-type="monthly" class="is-visible">
+                                <header class="cd-pricing-header">
+                                  <h2>自学的乱七八糟</h2>
+                                  <div class="cd-price">
+                                        <span class="cd-currency">学习</span>
+                                        <span class="cd-value">4-6</span>
+                                        <span class="cd-duration">种</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                      <li><em><em class="fa fa-check-circle"></em></em>部分UI设计，算法设计</li>
+                                      <li><em><em class="fa fa-remove"></em></em>高级算法，和大量细节问题</li>
+                                      <li><em><em class="fa fa-remove"></em></em>高阶程序设计</li>
+                                      <li><em><em class="fa fa-check-circle"></em></em>QT</li>
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer"><a class="cd-select" href="#">我觉得不行</a></footer>  
+                                <!-- .cd-pricing-footer -->
+                            </li>
+
+                            <li data-type="yearly" class="is-hidden">
+                                <header class="cd-pricing-header">
+                                  <h2>乱七八糟</h2>
+                                  <div class="cd-price">
+                                        <span class="cd-currency">还有</span>
+                                        <span class="cd-value">无穷</span>
+                                        <span class="cd-duration">种</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer"><a class="cd-select" href="#">我觉得很一般</a></footer>  
+                                <!-- .cd-pricing-footer -->
+                            </li>
+                        </ul> <!-- .cd-pricing-wrapper -->
+                    </li>
+                </ul> <!-- .cd-pricing-list -->
+            </div> <!-- .cd-pricing-container -->	
+
+        </section><div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
+
+        <!-- Sections -->
+        <section id="business" class="portfolio sections">
+            <div class="container">
+                <div class="head_title text-center">
+                  <h1>技 术 介 绍</h1>
+                  <p>简单地介绍使用了哪方面的技术</p>
+                </div>
+
+                <div class="row">
+                    <div class="portfolio-wrapper text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-book"></i>
+                                <div class="separator"></div>
+                              <h4>腾讯云服务器架构</h4>
+                                <p>本网站架构于腾讯云服务器，由腾讯云提供相关细节。本服务器是windows服务器，采用PHP组合HTML实现页面，提供24小时不间断访问服务。</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-bug"></i>
+                                <div class="separator"></div>
+                              <h4>腾讯云提供防护</h4>
+                                <p>由腾讯云提供服务器攻击保护，可以抵御小规模网络攻击，和物理攻击（有人会去腾讯总部拔我服务器网线吗？）。同时开发者实时关注，完善网站运营。.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-gears"></i>
+                                <div class="separator"></div>
+                                <h4>采用顶级域名</h4>
+                                <p>本网站采用.com顶级域名，纯自行搭建，加之云服务器，不经过第三方建网工具，运行稳定，方便寻找，方便输入。域名经过实名认证，安全可靠。</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-external-link"></i>
+                                <div class="separator"></div>
+                              <h4>提供在线数据库服务</h4>
+                                <p>服务器具有MySQL数据库，在时机成熟之后，会上线数据库搭配本地应用使用。离线数据库，模拟真正的网络系统，具有非常高的入门价值。</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="portfolio-wrapper2 text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-coffee"></i>
+                                <div class="separator"></div>
+                              <h4>隐藏页面彩蛋</h4>
+                                <p>开发者在设计网站时候，保留了一些有趣的页面，欢迎各位丧心病狂的大佬找到他们，有彩蛋。其中有些有着非常有趣的东西。欢迎交流。</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-tree"></i>
+                                <div class="separator"></div>
+                              <h4>离线页面设计</h4>
+                                <p>本页面采用Adobe Dreamweaver CC 2018设计，通过 Dreamweaver 设计页面，可视化修改，设计以及部署，实现网页运营和设计实现分离。</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-paper-plane-o"></i>
+                                <div class="separator"></div>
+                              <h4>协同开发者</h4>
+                                <p>如果你想加入这个网站的建设团队，那么联系开发者，通过审查之后，会定向开放服务器，协同开发，协同进步。提供开发协助。欢迎加入。 </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-folder-open"></i>
+                                <div class="separator"></div>
+                              <h4>储存服务网点</h4>
+                                <p>云服务器闲置空间可以用于提供小型储存服务，可在主机和子机间进行数据传输，实测速率还可以，属于实用水平。仅限管理员试用。</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+
+        <section id="contact" class="contact sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact whitebackground">
+                        <div class="head_title text-center">
+                          <h2>联 系 开 发 者</h2>
+                          <p>我有自知之明，技术不给力，欢迎提意见。</p>
+                        </div>
+                        <div class="contact_content">
+                            <div class="col-md-6">
+                                <div class="single_left_contact">
+                                    <form action="#" id="formid">
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" placeholder="你的昵称" required="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" placeholder="电子邮件" required="">
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="8" placeholder="信息"></textarea>
+                                        </div>
+
+                                        <div class="center-content">
+                                            <input type="submit" value="提交" class="btn btn-default">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_right_contact">
+                                  <p>您大可和我随便聊聊，我的电子邮件地址和Github地址在下方，也可私发我邮件，热恋欢迎。</p>
+                                  <div class="contact_address margin-top-40">
+                                    <p><span>NUC_Android Lab</span><span>中北大学</span><span class="margin-top-20">Tel:17735646760</span><span>Git: https://github.com/shencang</span></p>
+                                  </div>
+
+                                    <div class="contact_socail_bookmark">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-google"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Contact Section -->
+
+
+        <section id="footer-menu" class="sections footer-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-menu-wrapper">
+
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>快速链接</h5>
+                                    <ul>
+                                      <li>桌面版</li>
+                                      <li>移动版</li>
+                                      <li>相关文档</li>
+                                      <li>GIThub</li>
+                                      <li>Android lab</li>
+                                      <li>个人微博</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                  <h5>法律</h5>
+                                  <ul>
+                                    <li>隐私和密码</li>
+                                    <li>使用条款</li>
+                                    <li>商标</li>
+                                  </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                  <h5>信息</h5>
+                                  <ul>
+                                    <li>支持</li>
+                                    <li>发展</li>
+                                    <li>开发文档</li>
+                                    <li>通讯</li>
+                                    <li>页面反馈</li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="menu-item">
+                              <h5>通讯</h5>
+                              <p>欢迎检索网站的细节</p>
+                              <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="输入你想知道什么">
+                                    <input type="submit" class="form-control" value="我去寻找">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-brand">
+                                <img src="assets/images/logo3.png" alt="logo" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+                              <p>Made with  by <a target="_blank" href="#"> 深藏blue </a>2018. 新世界的大门正在打开---访问菜逼的<a href="https://github.com/shencang" target="_blank" title="Gitbub">Github</a> - Collect from <a href="http://www.shencangblue.com/" title="深藏blue" target="_blank">深藏blue</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="scrollup">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
